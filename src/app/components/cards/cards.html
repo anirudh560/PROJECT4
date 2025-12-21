@@ -1,0 +1,23 @@
+<div style="background-color: rgb(154, 154, 154,0.792); ">
+    <div class="row" >
+@for(i of card;track $index){
+
+    <div class="col">
+      <div
+  class="card fade-slide"
+  [style.animationDelay]="($index * 0.15) + 's'"
+  style="width: 20rem; margin: 10px; border-radius: 20px;"
+>
+
+
+        <img src="{{i.image}}"class="card-img-top" alt="..." style="height: 300px; padding: 20px;">
+        <div class="card-body " style="text-align: center;">
+            <h5 class="card-title">{{i.title}}</h5>
+            <a  class="btn btn-primary transition delay-150 duration-300 ease-in-out ..." (click)="viewproduct(i)">VIEW PRODUCT</a>
+        </div>
+    </div>
+</div>
+
+}
+</div>
+    </div>

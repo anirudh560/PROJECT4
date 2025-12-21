@@ -1,0 +1,16 @@
+
+/* Navbar text */
+.navbar-brand,
+.nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+/* Hover effect */
+.nav-link:hover {
+
+  color: #007aff !important; /* iOS blue */
+}
+
+
+

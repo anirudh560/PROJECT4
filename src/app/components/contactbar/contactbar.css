@@ -1,0 +1,45 @@
+/* General smoothness */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Image animation */
+.sale-img {
+  opacity: 0;
+  transform: translateX(-60px);
+  animation: slideLeft 1.2s ease forwards;
+}
+
+/* Text animation */
+.sale-text {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1.2s ease forwards;
+  animation-delay: 0.5s;
+}
+
+/* Button animation */
+.sale-btn {
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.sale-btn:hover {
+  box-shadow: 0 0 20px rgba(255, 193, 7, 0.8);
+  transform: scale(1.08);
+}
+
+/* Keyframes */
+@keyframes slideLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

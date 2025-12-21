@@ -1,0 +1,23 @@
+.carousel-item img {
+  height: 400px;        /* change to your needed height */
+  object-fit:fill;
+  
+
+    /* fills area without distortion */
+}
+.carousel-animate {
+  opacity: 0;
+  animation: slideFromRight 1.2s ease forwards;
+  animation-delay: 0.4s;
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(60px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
