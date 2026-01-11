@@ -1,0 +1,23 @@
+footer {
+  background: linear-gradient(90deg, #1b5e20, #2e7d32);
+  color: #e8f5e9;
+  font-weight: 500;
+  letter-spacing: 1px;
+  box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Optional: links inside footer */
+footer a {
+  color: #ffeb3b;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #dbd32f;
+}
+
+/* Small screen spacing */
+footer {
+  padding: 16px 0;
+}

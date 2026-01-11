@@ -21,7 +21,7 @@ export class Card implements OnInit{
       this.api_serv.getFakeStore().subscribe((data:any)=>
       {
         console.log(data);
-        this.card=data;
+        this.card=data.products;
         this.cdr.detectChanges();
       })
   }

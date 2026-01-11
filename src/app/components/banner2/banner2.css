@@ -1,3 +1,18 @@
 .carousel-inner{
     height:400px;
 }
+.image-wrapper {
+  
+  padding: 16px;
+  border-radius: 25px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  
+  margin: auto;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+  
+}

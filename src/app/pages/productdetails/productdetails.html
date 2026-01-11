@@ -1,8 +1,8 @@
-<div  style="background-color: aliceblue; padding: 20px;">
+<div  style="background-color: rgb(234, 243, 234); padding: 20px;">
   @if (product) {
   <div class="row">
     <div class="col-lg-6">
-      <img [src]="product.image" alt="{{ product.title }}" class="img-fluid rounded" />
+      <img [src]="product.images[0]" alt="{{ product.title }}" class="img-fluid rounded" />
     </div>
     <div class="col-lg-6">
       <h1 class="fw-bold mb-3">{{ product.title }}</h1>
@@ -25,11 +25,12 @@
       </div>
     </div>
   </div>
+  
   } @else {
   <div class="text-center py-5">
     <p class="text-muted fs-5">Loading product details...</p>
   </div>
   }
 
-  
+  <app-cards></app-cards>
 </div>

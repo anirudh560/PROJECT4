@@ -4,7 +4,7 @@ import { Card } from "../../components/cards/cards";
 
 @Component({
   selector: 'app-productsetails',
-  imports: [],
+  imports: [Card],
   templateUrl: './productdetails.html',
   styleUrl: './productdetails.css',
 })

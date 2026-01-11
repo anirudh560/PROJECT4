@@ -1,23 +1,26 @@
-.fade-slide {
-  opacity: 0;
-  animation: fadeSlideUp 1s ease forwards;
+.product-card {
+  border-radius: 16px;
+  border: none;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
 
-@keyframes fadeSlideUp {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
-.card:hover {
-  transform: translateY(-12px);
-  box-shadow: 0 15px 30px rgba(24, 106, 184, 0.81);
+.image-box {
+  background: #f8f9fa;
+  padding: 20px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+}
+
+.btn-outline-success {
+  border-radius: 30px;
 }

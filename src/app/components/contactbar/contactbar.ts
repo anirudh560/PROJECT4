@@ -3,7 +3,7 @@ import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'app-contactbar',
-  imports: [RouterLink],
+  imports: [],
   templateUrl: './contactbar.html',
   styleUrl: './contactbar.css',
 })

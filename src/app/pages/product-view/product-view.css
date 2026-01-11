@@ -1,0 +1,25 @@
+.section-title h2 {
+  font-size: 32px;
+}
+
+.section-title p {
+  font-size: 15px;
+  color: #777;
+}
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #013502,
+    #6BBF59,
+    #05581a
+  );
+  background-size: 200%;
+  animation: shine 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes shine {
+  from { background-position: 0%; }
+  to { background-position: 200%; }
+}
